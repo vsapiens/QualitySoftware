@@ -1,0 +1,56 @@
+//esta parte es nueva (added) y está en 2 archivos
+class Banco
+	{
+	 linea;
+	 linea;	
+	 
+	 //.i
+	 //item
+	function initialize() {
+	  var content = document.getElementById('content');
+	  //Setting the text in the div.
+	  content.innerHTML = '<div id="text">Hola, me alegro mucho de verte.<\/div><div id="translation"/>';
+
+	  //Grabbing the text to translate
+	  var text = document.getElementById("text").innerHTML;
+
+	  //Translate from Spanish to English, and have the callback of the request
+	  //put the resulting translation in the "translation" div.
+	  //Note: by putting in an empty string for the source language ('es') then the translation
+	  //will auto-detect the source language.
+	  google.language.translate(text, 'es', 'en', function(result) {
+		var translated = document.getElementById("translation");
+		if (result.translation) {
+		  translated.innerHTML = "Cuando la etiqueta esta en un string //.m tampoco se debe contar";
+		}
+	  });
+	}
+
+	//.i
+	function onLoad() {
+	  var content = document.getElementById('content');
+	  //Create the HTML for out text area
+	  content.innerHTML = '<div><i>(Scroll down)</i> ' +
+						  'You can click the Show/Hide button enable/disable' +
+						  ' the Virtual Keyboard.</div>' +
+						  '<input type="button" onclick="toggleVisible()" ' +
+						  'id="btVisible" value="Hide"></input><br/>' +
+						  '<textarea id="t1" cols="100" rows="5"></textarea>';
+
+	  kbd = new google.elements.keyboard.Keyboard(
+		  [google.elements.keyboard.LayoutCode.THAI],
+		  ['t1']);
+	}
+
+	//.i
+	function toggleVisible() {
+	  var button = document.getElementById('btVisible');
+	  if (kbd.isVisible()) {
+		kbd.setVisible(false);
+		document.getElementById('btVisible').value = 'Show';
+	  } else {
+		kbd.setVisible(true);
+		document.getElementById('btVisible').value = 'Hide';
+	  }
+	}
+}

@@ -1,0 +1,13 @@
+	// constructor... crea una lista vacía	
+	/*
+	 * Agrega al final de la lista el valor contenido en “dato”.
+	 * “actual” apunta al valor insertado.
+	 */
+	// Mueve “actual” al primer nodo de la lista. 
+	// Si la lista está vacía… actual <-- NULO.	 	
+	// Mueve “actual” al siguiente valor en la lista, si puede.
+	// Regresa TRUE si lo pudo mover, FALSE si no pudo.
+	// Regresa el valor al que apunta “actual”. Si “actual” es NULO, regresa 0 (cero).
+	// Regresa TRUE si la lista está vacía, si no regresa FALSE
+	/* Regresa el promedio de los datos almacenados en la lista.
+	   Si la lista está vacía regresa 0 (cero). */

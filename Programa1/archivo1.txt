@@ -1,0 +1,80 @@
+	
+public class Lista {
+  	 
+	private Nodo inicio;
+	private Nodo fin; 	
+	private Nodo actual;
+
+	// constructor... crea una lista vacía
+	public Lista() {
+		inicio = null;
+		fin = null;
+		actual = null;
+	}
+	
+	/*
+	 * Agrega al final de la lista el valor contenido en “dato”.
+	 * “actual” apunta al valor insertado.
+	 */
+	public void AgregaFin(double dato){
+		if	(inicio == null){
+			inicio = fin = actual = new Nodo(dato);
+		} else {
+			fin.setSig(new Nodo(dato));
+			actual = fin = fin.getSig();
+		}
+	}
+				
+	// Mueve “actual” al primer nodo de la lista. 
+	// Si la lista está vacía… actual <-- NULO.
+	public void IrInicio(){
+		actual = inicio;
+	}
+	 	 	
+	// Mueve “actual” al siguiente valor en la lista, si puede.
+	// Regresa TRUE si lo pudo mover, FALSE si no pudo.
+	public boolean Siguiente(){   	 
+		if (actual == null) {
+			return false;
+		} else {
+			if (actual.getSig() == null) {
+				return false;
+			} else {
+				actual = actual.getSig();
+				return true;
+			}
+		}
+	}
+	
+	// Regresa el valor al que apunta “actual”. Si “actual” es NULO, regresa 0 (cero).
+	public double ValorActual(){
+		if (actual == null) {
+			return 0;
+		} else {
+			return actual.getDato();
+		}
+	}
+	
+	// Regresa TRUE si la lista está vacía, si no regresa FALSE
+	public boolean Vacio(){
+		return (inicio == null);
+	}
+	
+	/* Regresa el promedio de los datos almacenados en la lista.
+	   Si la lista está vacía regresa 0 (cero). */
+	public double Promedio(){
+		if (inicio == null) {
+			return 0.0;
+		} else {
+			this.IrInicio();
+			double suma = this.ValorActual();
+			int n = 1;
+			while (this.Siguiente()) {
+				suma += this.ValorActual();
+				n += 1;
+			}
+			return suma / n;
+		}
+		
+	}
+}

@@ -1,0 +1,62 @@
+linea;
+linea;
+linea;
+		        
+class Lista
+		
+	linea;
+	linea;
+	//.b=15		
+	//.i
+		linea;
+		linea;
+  
+		//.d=1
+    
+		linea;
+		linea;
+		linea;
+		linea;
+		linea;
+
+	//.i
+		linea;   //.m  
+		//.b=50
+		linea;
+		linea;
+		linea;
+
+		//.d=33
+    
+		linea;
+		linea;
+		linea;//.m	
+		linea;
+		linea;
+		linea;
+		linea;
+		linea;
+		linea;
+		linea;
+
+	//.i
+		linea;
+	
+	//.i
+		linea;
+		linea;
+		linea;
+		linea;
+		linea;
+
+		//.d=1
+
+		linea;
+		linea;
+		linea;//.m
+		linea;
+		linea;
+		linea;
+		linea;
+		linea;
+		linea;

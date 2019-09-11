@@ -1,0 +1,67 @@
+	
+public class Lista {
+  	 
+	private Nodo inicio;
+	private Nodo fin; 	
+	private Nodo actual;
+
+	public Lista() {
+		inicio = null;
+		fin = null;
+		actual = null;
+	}
+	
+	public void AgregaFin(double dato){
+		if	(inicio == null){
+			inicio = fin = actual = new Nodo(dato);
+		} else {
+			fin.setSig(new Nodo(dato));
+			actual = fin = fin.getSig();
+		}
+	}
+				
+	public void IrInicio(){
+		actual = inicio;
+	}
+	 	 	
+	public boolean Siguiente(){   	 
+		if (actual == null) {
+			return false;
+		} else {
+			if (actual.getSig() == null) {
+				return false;
+			} else {
+				actual = actual.getSig();
+				return true;
+			}
+		}
+	}
+	
+	public double ValorActual(){
+		if (actual == null) {
+			return 0;
+		} else {
+			return actual.getDato();
+		}
+	}
+	
+	public boolean Vacio(){
+		return (inicio == null);
+	}
+	
+	public double Promedio(){
+		if (inicio == null) {
+			return 0.0;
+		} else {
+			this.IrInicio();
+			double suma = this.ValorActual();
+			int n = 1;
+			while (this.Siguiente()) {
+				suma += this.ValorActual();
+				n += 1;
+			}
+			return suma / n;
+		}
+		
+	}
+}

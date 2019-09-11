@@ -1,0 +1,55 @@
+//Esta parte es Base
+class Cliente
+		  linea;
+//.b=21
+		  linea;
+		  linea; //.m
+		  linea;
+		  linea;
+
+	  //.i
+		  linea;
+		  linea;
+		  linea;
+		  linea;
+		  linea;
+		  linea;
+		  linea;
+		  
+	//.i		
+		  linea;
+		  linea;
+		  linea;
+		  linea;
+		  linea; //.m
+		  linea; //.m
+		  linea;
+		  linea;
+		  linea;
+		  linea;
+		  linea;
+		  linea;
+
+	//.i  
+		  linea;
+		  linea;
+		  linea;
+		  //.d=2
+		  linea;
+		  linea;
+		  linea; //.m
+
+	//.i	
+		  linea;
+		  linea;
+		  //.d=8  
+		  linea;
+		  linea;
+		  linea; //.m	
+		  linea;
+		  linea;
+		  linea;
+		  linea;
+		  linea;
+		  linea;
+		  linea;
