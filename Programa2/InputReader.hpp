@@ -8,6 +8,8 @@ InputReader.cpp
 Erick Francisco Gonzalez Martinez A01039589
 Version: 3.0 last modified 09/09/2019
 */
+//.b =80
+//.d=20
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -52,7 +54,6 @@ public:
     void countLines();
     //Determines the type of the block of code.
     void determineType();
-    
 };
 /*
 Function: InputReader::InputReader()
@@ -68,10 +69,11 @@ Function: InputReader::InputReader(const InputReader &ir)
 Parameters: const InputReader &ir which is from where it will copy.
 Return: -
 */
-InputReader::InputReader(const InputReader &ir){
-counter = ir.counter;
-fileName = ir.fileName;
-type = ir.type;
+InputReader::InputReader(const InputReader &ir)
+{
+    counter = ir.counter;
+    fileName = ir.fileName;
+    type = ir.type;
 };
 /*
 Function: InputReader::handleInput()
@@ -116,27 +118,27 @@ bool InputReader::isBlank(string line)
     for (int i = 0; i < line.length(); i++)
     {
         if (!isspace((char)line[i]))
+        {
+            if (line[i] == '{' && !bfound)
             {
-                if(line[i] == '{' && !bfound)
-                {
-                    bfound = true;
-                }
-                else if (line[i] == '}' && !bfound)
-                {
-                    if(line[i+1] ==';')
-                    {
-                        bfound = true;
-                        i++;
-                    }
-                    bfound = true;
-                }
-                else return false;
+                bfound = true;
             }
+            else if (line[i] == '}' && !bfound)
+            {
+                if (line[i + 1] == ';')
+                {
+                    bfound = true;
+                    i++;
+                }
+                bfound = true;
+            }
+            else
+                return false;
+        }
     }
 
     return true;
 }
-
 
 /*
 Function: InputReader::isComment
@@ -148,10 +150,10 @@ bool InputReader::isComment(string line)
 {
     if (line.find("//") != -1)
     {
-        if(line.find("//") == line.find("//."))
+        if (line.find("//") == line.find("//."))
             return false;
-        
-        if(line.find("http") != -1)
+
+        if (line.find("http") != -1)
             return false;
 
         return true;
@@ -186,21 +188,23 @@ Function: InputReader::determineType()
 Parameters: -
 Return: -
 */
-void InputReader::determineType(){
+void InputReader::determineType()
+{
     //"TIBDMA"
-    if(counter[2] > 0 && ( counter[3]> 0 || counter[4] > 0 || counter[5] > 0))
+    if (counter[2] > 0 && (counter[3] > 0 || counter[4] > 0 || counter[5] > 0))
     {
         type = 'B';
     }
-    else if(counter[2] == 0 && counter[3] == 0 && counter[4] == 0 && counter[5] > 0)
+    else if (counter[2] == 0 && counter[3] == 0 && counter[4] == 0 && counter[5] > 0)
     {
         type = 'N';
     }
-    else if( counter[2] > 0  && counter[3] == 0 && counter[4] == 0 && counter[5] ==0)
+    else if (counter[2] > 0 && counter[3] == 0 && counter[4] == 0 && counter[5] == 0)
     {
         type = 'R';
     }
-    else {
+    else
+    {
         type = 'E';
     }
 }
@@ -230,15 +234,16 @@ void InputReader::countLines()
         {
             counter[4]++;
         }
-        else if (line.find("//.d=") != string::npos)
+        else if (line.find("//.d=") != string::npos && line[line.find("=") + 1] != '\"')
         {
-            counter[3] += stoi(line.substr(line.find("//.d=")+5));
+            counter[3] += stoi(line.substr(line.find("=") + 1));
         }
-        else if (line.find("//.b=") != string::npos)
+        else if (line.find("//.b =") != string::npos && line[line.find("=") + 1] != '\"')
         {
-            counter[2] += stoi(line.substr(line.find("//.b=")+5));
+            counter[2] += stoi(line.substr(line.find("=") + 1));
         }
-        else{
+        else
+        {
             counter[0]++;
         }
     }
@@ -246,8 +251,7 @@ void InputReader::countLines()
 
     counter[0] += counter[4];
     //Calculates the added LOC
-    counter[5] = counter[0]-counter[2] + counter[3];
+    counter[5] = counter[0] - counter[2] + counter[3];
 
     determineType();
-    
 }
