@@ -7,7 +7,7 @@ Erick Francisco Gonzalez Martinez A01039589
 Version: 4.0 last modified 24/09/2019
 */
 //.b =27
-//.d=#
+//.d=18
 #include "OutputHandler.hpp"
 /*
 Function: Main
@@ -17,20 +17,19 @@ Return: Int, describing the correct compilation of the program
 */
 int main()
 {
-
     //Input Reader initialization
-        InputReader input;
+    InputReader input;
     //Input management
-        input.handleInput();
+    input.handleInput();
     //If the archive doesn't open the counters are already initialized to 0
-        if (input.openFile())
-            input.storeValues();
-    
+    if (input.openFile())
+        input.storeValues(); //.m
+
     //Handles the output files
-        OutputHandler output(input.results);
-    
+    OutputHandler output(input.results); //.m
+
     //Displays in the required format and saves the file
-        output.display();
+    output.display();
 
     return 0;
 }

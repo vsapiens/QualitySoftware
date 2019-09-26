@@ -222,6 +222,7 @@ void InputReader::countLines()
     while (!file.eof())
     {
         getline(file, line);
+
         if (isComment(line) || isMultiComment(line) || isBlank(line))
         {
             counter[6]++;

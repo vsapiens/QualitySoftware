@@ -8,8 +8,8 @@ InputReader.cpp
 Erick Francisco Gonzalez Martinez A01039589
 Version: 4.0 last modified 24/09/2019
 */
-//.b =80
-//.d=#
+//.b =87
+//.d=59
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -20,6 +20,7 @@ using namespace std;
 Class InputReader
     Manages the input of the files and calculates the values
 */
+//.i
 class InputReader
 {
 private:
@@ -42,7 +43,7 @@ private:
     //Stores the average of y
     double dAvgY;
     //Stores the data
-    vector<pair<double, double>> data;
+    vector<pair<double, double>> data; //.m
 
 public:
     //Stores the results of the saved data
@@ -73,7 +74,8 @@ Function: InputReader::InputReader()
 Parameters: -
 Return: -
 */
-InputReader::InputReader() : results(vector<double>(7, 0)), fileName("")
+//.i
+InputReader::InputReader() : results(vector<double>(7, 0)), fileName("") //.m
 {
     dSumXY = 0;
     dSumX = 0;
@@ -90,6 +92,7 @@ Function: InputReader::InputReader(const InputReader &ir)
 Parameters: const InputReader &ir which is from where it will copy.
 Return: -
 */
+//.i
 InputReader::InputReader(const InputReader &ir)
 {
     results = ir.results;
@@ -101,6 +104,7 @@ Function: InputReader::handleInput()
 Parameters: -
 Return: -
 */
+//.i
 void InputReader::handleInput()
 {
     getline(cin, fileName);
@@ -111,6 +115,7 @@ Function: InputReader::openFile()
 Parameters: -
 Return: (bool) Determines if the file is opened correctly, exists or if it is empty.
 */
+//.i
 bool InputReader::openFile()
 {
     file.open(fileName);
@@ -129,6 +134,7 @@ bool InputReader::openFile()
  Parameters: -
  Return: -
  */
+//.i
 void InputReader::calculateValues()
 {
 
@@ -149,6 +155,7 @@ void InputReader::calculateValues()
  Parameters: -
  Return: -
  */
+//.i
 void InputReader::storeValues()
 {
     double x, y;

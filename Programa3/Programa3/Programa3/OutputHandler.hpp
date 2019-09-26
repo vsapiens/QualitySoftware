@@ -8,12 +8,13 @@ Erick Francisco Gonzalez Martinez A01039589
 Version: 4.0 last modified 24/09/2019
 */
 //.b =85
-//.d=#
+//.d=80
 #include "InputReader.hpp"
 /*
 Class: OutputHandler
     Handles the output format of the files
 */
+//.i
 class OutputHandler
 {
 private:
@@ -38,6 +39,7 @@ public:
  Parameters: (double) number the number to be added
  Return: (double) value of the number rounded
  */
+//.i
 inline double round(double number)
 {
     if (number < 0)
@@ -50,6 +52,7 @@ inline double round(double number)
  Parameters: (double) x is the number to be converted
  Return: String with the rounded double to 5 decimal places
  */
+//.i
 string convert(double x)
 {
     string s = to_string(round(x * 100000.0) / 100000.0);
@@ -69,7 +72,7 @@ Function: OutputHandler::display()
 Parameters: -
 Return: -
 */
-
+//.i
 void OutputHandler::display()
 {
 
