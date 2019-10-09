@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5A752BC233BD24F00FCE0E8 /* programa4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5A752BB233BD24F00FCE0E8 /* programa4.cpp */; };
+		A53B099D23450A2E00016AB5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A53B099C23450A2E00016AB5 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A53B099A23450A2E00016AB5 /* OutputHandler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OutputHandler.hpp; sourceTree = "<group>"; };
+		A53B099B23450A2E00016AB5 /* InputReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = InputReader.hpp; sourceTree = "<group>"; };
+		A53B099C23450A2E00016AB5 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A5A752B8233BD24F00FCE0E8 /* Programa4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programa4; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5A752BB233BD24F00FCE0E8 /* programa4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = programa4.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,9 @@
 		A5A752BA233BD24F00FCE0E8 /* Programa4 */ = {
 			isa = PBXGroup;
 			children = (
-				A5A752BB233BD24F00FCE0E8 /* programa4.cpp */,
+				A53B099B23450A2E00016AB5 /* InputReader.hpp */,
+				A53B099C23450A2E00016AB5 /* main.cpp */,
+				A53B099A23450A2E00016AB5 /* OutputHandler.hpp */,
 			);
 			path = Programa4;
 			sourceTree = "<group>";
@@ -118,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A752BC233BD24F00FCE0E8 /* programa4.cpp in Sources */,
+				A53B099D23450A2E00016AB5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

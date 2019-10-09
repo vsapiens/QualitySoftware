@@ -1,8 +1,10 @@
 PARTES BASE:
-   InputReader T=87, I=1, B=80, D=20, M=1, A=27
+   InputReader T=80, I=9, B=79, D=40, M=4, A=41
+   main T=8, I=0, B=9, D=1, M=2, A=0
+   OutputHandler T=22, I=4, B=26, D=4, M=3, A=0
 --------------------------------------------
 PARTES NUEVAS:
 --------------------------------------------
 PARTES REUSADAS:
 --------------------------------------------
-Total de LDC=87
+Total de LDC=110
