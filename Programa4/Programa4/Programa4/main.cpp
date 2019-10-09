@@ -22,10 +22,10 @@ int main()
     //Input management
     input.handleInput();
     //If the archive doesn't open the counters are already initialized to 0
-    input.storeValues(); //.m
+    input.storeValues();
 
     //Handles the output files
-    OutputHandler output(input.results); //.m
+    OutputHandler output(input.results);
 
     //Displays in the required format and saves the file
     output.display();
