@@ -1,0 +1,13 @@
+Process Dashboard - logging started at Wed Oct 09 11:49:49 CDT 2019
+Oracle Corporation JRE 1.8.0_221; Mac OS X
+Using LocalWorkingDirectory[/Users/ErickFrank/Library/Process Dashboard/data]
+2019-10-09 11:49:49.378:INFO:oejs.Server:jetty-8.y.z-SNAPSHOT
+2019-10-09 11:49:49.395:INFO:oejs.AbstractConnector:Started LocalConnector@0.0.0.0:0
+2019-10-09 11:49:49.429:INFO:oejs.AbstractConnector:Started SelectChannelConnector@127.0.0.1:2468
+Process Dashboard version 2.4.1
+Running as user ErickFrank
+Saved /Users/ErickFrank/Library/Process Dashboard/data/5.dat
+Saved /Users/ErickFrank/Library/Process Dashboard/data/5.dat
+Saved /Users/ErickFrank/Library/Process Dashboard/data/5.dat
+Saved /Users/ErickFrank/Library/Process Dashboard/data/5.dat
+Saved /Users/ErickFrank/Library/Process Dashboard/data/5.dat

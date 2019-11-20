@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<defectLog>
+  <defect num="1" type="Assignment" inj="Design" rem="Code" ft="2.7" fd="" desc="The scope of the constant value of pi and errorMax must be define outside the class, so the non-member functions access the data" date="@1570485122651" />
+  <defect num="2" type="Documentation" inj="Code" rem="Code Review" ft="20.0" fd="" desc="The code has no defined documentation so it was added, as well as the format desired for the PSP" date="@1570424400000" />
+</defectLog>
