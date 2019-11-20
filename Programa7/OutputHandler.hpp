@@ -7,7 +7,7 @@ OutputHandler.cpp
 Erick Francisco Gonzalez Martinez A01039589
 Version: 7.0 last modified 19/11/2019
 */
-//.b =26
+//.b =32
 #include "InputReader.hpp"
 #include <iomanip>
 /*

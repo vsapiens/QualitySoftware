@@ -6,7 +6,8 @@ InputReader.cpp
 Erick Francisco Gonzalez Martinez A01039589
 Version: 7.0 last modified 19/11/2019
 */
-//.b =88
+//.b =150
+//.d=60
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -75,26 +76,6 @@ Return: -
 //.i
 InputReader::InputReader() : results(vector<double>(9, 0)), fileName("") //.m
 {
-    b0 = 0;
-    b1 = 0;
-    b2 = 0;
-    b3 = 0;
-    wi = 0;     
-    xi = 0;     
-    yi = 0;     
-    zi = 0;     
-    w2i = 0;
-    x2i = 0;
-    y2i = 0;
-    wx = 0;
-    wy = 0;
-    wz = 0;
-    xy = 0;
-    xz = 0;
-    yz = 0;
-    xk = 0;
-    yk = 0;
-    wk = 0;
 };
 
 /*
@@ -182,7 +163,9 @@ void InputReader::rrf()
 //.i
 void InputReader::calculateValues()
 {
-    rrf();
+    if(wk != 0 && yk != 0 && xk != 0 )
+        rrf();
+    
     results[0] = N;//.m
     results[1] = wk;//.m
     results[2] = xk;//.m
