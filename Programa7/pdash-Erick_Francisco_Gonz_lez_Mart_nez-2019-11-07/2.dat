@@ -1,0 +1,40 @@
+#include <pspForEng3/psp0/dataFile.txt>
+= Data for /Non Project/PSP Training/Program 1
+After Development/Defects Removed==30.0
+Code/Completed/Edit_Timestamp=@1566971413475
+Code/Completed=@1566971413475
+Code/Defects Injected==66.0
+Code/Defects Removed==55.0
+Code/Started=@1566965089784
+Code/Time==68.0
+Compile/Completed/Edit_Timestamp=@1566974531094
+Compile/Completed=@1566974531094
+Compile/Defects Removed==36.0
+Compile/Started=@1566971413499
+Compile/Time==52.0
+Completed/Edit_Timestamp=@1567135320852
+Completed=@1567135320852
+Data_Activity_Timestamp=@1566975138627
+Design/Completed/Edit_Timestamp=@1566965089755
+Design/Completed=@1566965089755
+Design/Defects Injected==54.0
+Design/Started=@1566958531318
+Design/Time==55.0
+Estimated Time/Edit_Timestamp=@1567134079788
+Estimated Time=300.0
+PSP Project Document Directory="/Users/ErickFrank/Downloads/Programa1
+Planning/Completed/Edit_Timestamp=@1566958598323
+Planning/Completed=@1566958598323
+Planning/Started=@1566941629362
+Planning/Time==6.0
+Postmortem/Completed/Edit_Timestamp=@1567135359399
+Postmortem/Completed=@1567135359399
+Postmortem/Started=@1566974808182
+Postmortem/Time==55.0
+Requirements Document Filename="RequerimientosPrograma1.pdf
+Started=@1566939600000
+Test/Completed/Edit_Timestamp=@1566974808154
+Test/Completed=@1566974808154
+Test/Defects Injected==1.0
+Test/Started=@1566974531129
+Test/Time==5.0

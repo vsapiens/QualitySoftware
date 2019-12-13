@@ -1,0 +1,88 @@
+#include <pspForEng3/psp2.1/dataFile2.txt>
+= Data for /Non Project/PSP Training/Program 5
+Base_Parts/0/Actual Added=15.0
+Base_Parts/0/Actual Base=88.0
+Base_Parts/0/Actual Deleted=3.0
+Base_Parts/0/Actual Modified=2.0
+Base_Parts/0/Added=20.0
+Base_Parts/0/Base=80.0
+Base_Parts/0/Deleted=20.0
+Base_Parts/0/Description="InputReader
+Base_Parts/0/Modified=3.0
+Base_Parts/1/Actual Added=0.0
+Base_Parts/1/Actual Base=22.0
+Base_Parts/1/Actual Deleted=0.0
+Base_Parts/1/Actual Modified=2.0
+Base_Parts/1/Added=0.0
+Base_Parts/1/Base=22.0
+Base_Parts/1/Deleted=0.0
+Base_Parts/1/Description="OutputHandler
+Base_Parts/1/Modified=2.0
+Base_Parts_List=="01
+Code Review/Completed/Edit_Timestamp=@1571245499850
+Code Review/Completed=@1571245499850
+Code Review/Defects Injected==1.0
+Code Review/Started=@1571245201119
+Code Review/Time==5.0
+Code/Completed/Edit_Timestamp=@1571245201072
+Code/Completed=@1571245201072
+Code/Started=@1571244693383
+Code/Time==8.0
+Compile/Completed/Edit_Timestamp=@1571245536139
+Compile/Completed=@1571245536139
+Design Review/Completed/Edit_Timestamp=@1571244693342
+Design Review/Completed=@1571244693342
+Design Review/Defects Removed==1.0
+Design Review/Started=@1571242518802
+Design Review/Time==7.0
+Design/Completed/Edit_Timestamp=@1571242518780
+Design/Completed=@1571242518780
+Design/Defects Injected==2.0
+Design/Defects Removed==1.0
+Design/Started=@1571240652022
+Design/Time==30.0
+Estimated New & Changed LOC/Beta0=0.0
+Estimated New & Changed LOC/Beta1=1.4965503589654456
+Estimated New & Changed LOC/Interval Percent="N/A
+Estimated New & Changed LOC/LPI="N/A
+Estimated New & Changed LOC/Probe Method="C
+Estimated New & Changed LOC/R Squared="N/A
+Estimated New & Changed LOC/Range="N/A
+Estimated New & Changed LOC/UPI="N/A
+Estimated New & Changed LOC=34.42065825620525
+Estimated Time/Beta0=0.0
+Estimated Time/Beta1=4.871863578646504
+Estimated Time/Edit_Timestamp=@1571240619385
+Estimated Time/Interval Percent="N/A
+Estimated Time/LPI="N/A
+Estimated Time/Probe Method="C2
+Estimated Time/R Squared="N/A
+Estimated Time/Range="N/A
+Estimated Time/UPI="N/A
+Estimated Time=112.05286230886959
+New_Objects_List=="0
+PROBE_LIST=="/Non Project/PSP Training/Program 1/Non Project/PSP Training/Program 2/Non Project/PSP Training/Program 3/Non Project/PSP Training/Program 4
+PROBE_Last_Run_Value/Estimated Added & Modified Size=34.42065825620525
+PROBE_Last_Run_Value/Estimated Proxy Size==23.0
+PROBE_Last_Run_Value/Estimated Time/Edit_Timestamp=@1571240619578
+PROBE_Last_Run_Value/Estimated Time=112.05286230886959
+Planning/Completed/Edit_Timestamp=@1571240651995
+Planning/Completed=@1571240651995
+Planning/Defects Injected==1.0
+Planning/Started=@1571240254484
+Planning/Time==2.0
+Postmortem/Completed/Edit_Timestamp=@1571322560796
+Postmortem/Completed=@1571322560796
+Postmortem/Started=@1571321457933
+Postmortem/Time==15.0
+Reused Objects/0/Actual LOC=8.0
+Reused Objects/0/Description="main
+Reused Objects/0/LOC=8.0
+Reused_Objects_List=="0
+Started=@1571240254484
+Test/Completed/Edit_Timestamp=@1571275934003
+Test/Completed=@1571275934003
+Test/Defects Removed==2.0
+Test/Started=@1571245536140
+Test/Time==8.0
+Total LOC=130.0

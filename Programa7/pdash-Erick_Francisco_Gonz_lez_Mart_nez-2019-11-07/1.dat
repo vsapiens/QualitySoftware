@@ -1,0 +1,23 @@
+#include <pspForEng3/profileData.txt>
+= Data for /Non Project/PSP Training/Student Profile
+Completed=@1566404801708
+CourseExpFormalSWMethods=1.0
+CourseExpPhysicalSciences=1.0
+CourseExpSWPM=1.0
+CourseExpStatistics=1.0
+EmpSoftwareIndustry="other
+HighLevelLangCount=2.0
+HighestDegree="High School
+KLOCTotalExp=8.0
+KLOCTotalYRAllLang=4.0
+KLOCTotalYRProjectLang=2.0
+LOCProjectLangExp=4.0
+LangExpC=1.0
+LangExpCPP=1.0
+LangExpJava=1.0
+LangExpSQL=1.0
+MajorFieldStudy="Computer Science
+Profile_Initials="EFGM
+Profile_Instructor="Rafael Salazar
+Profile_Organization="Tecnológico de Monterrey
+Time==0.0

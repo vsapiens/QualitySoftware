@@ -1,0 +1,80 @@
+#include <pspForEng3/psp1/dataFile.txt>
+= Data for /Non Project/PSP Training/Program 2
+After Development/Defects Removed==2.0
+Base_Parts/0/Actual Added=45.0
+Base_Parts/0/Actual Base=85.0
+Base_Parts/0/Actual Deleted=30.0
+Base_Parts/0/Actual Modified=2.0
+Base_Parts/0/Added=20.0
+Base_Parts/0/Base=50.0
+Base_Parts/0/Deleted=4.0
+Base_Parts/0/Description="Programa1
+Base_Parts/0/Modified=2.0
+Base_Parts_List=="0
+Code/Completed/Edit_Timestamp=@1568091854969
+Code/Completed=@1568091854969
+Code/Defects Injected==11.0
+Code/Defects Removed==3.0
+Code/Started=@1568080325092
+Code/Time==109.0
+Compile/Completed/Edit_Timestamp=@1568094376572
+Compile/Completed=@1568094376572
+Compile/Defects Removed==5.0
+Compile/Started=@1568091854999
+Compile/Time==30.0
+Design/Completed/Edit_Timestamp=@1568080325048
+Design/Completed=@1568080325048
+Design/Defects Injected==3.0
+Design/Started=@1568064166148
+Design/Time==80.0
+Estimated New & Changed LOC/Beta0=0.0
+Estimated New & Changed LOC/Beta1=1.0
+Estimated New & Changed LOC/Interval Percent="N/A
+Estimated New & Changed LOC/LPI="N/A
+Estimated New & Changed LOC/Probe Method="D
+Estimated New & Changed LOC/R Squared="N/A
+Estimated New & Changed LOC/Range="N/A
+Estimated New & Changed LOC/UPI="N/A
+Estimated New & Changed LOC=89.2
+Estimated Time/Beta0="N/A
+Estimated Time/Beta1="N/A
+Estimated Time/Edit_Timestamp=@1568086326375
+Estimated Time/Interval Percent="N/A
+Estimated Time/LPI="N/A
+Estimated Time/Probe Method="D
+Estimated Time/R Squared="N/A
+Estimated Time/Range="N/A
+Estimated Time/UPI="N/A
+Estimated Time=340.0
+New Objects/0/Actual New Reused?=0.0
+New Objects/0/LOC=2.3
+New Objects/0/New Reused?=0.0
+New Objects/1/Actual New Reused?=0.0
+New Objects/1/New Reused?=0.0
+New_Objects_List=="0
+PROBE_LIST=="/Non Project/PSP Training/Program 1
+PROBE_Last_Run_Value/Estimated Added & Modified Size=89.2
+PROBE_Last_Run_Value/Estimated Proxy Size==89.2
+PROBE_Last_Run_Value/Estimated Time/Edit_Timestamp=@1568064123050
+PROBE_Last_Run_Value/Estimated Time=280.2
+PSP Project Document Directory="/Users/ErickFrank/Github/QualityTesting/Programa2/Archivos/
+Planning/Completed/Edit_Timestamp=@1568064166107
+Planning/Completed=@1568064166104
+Planning/Defects Injected==1.0
+Planning/Started=@1568057611746
+Planning/Time==18.0
+Postmortem/Completed/Edit_Timestamp=@1568338874603
+Postmortem/Completed=@1568338874603
+Postmortem/Started=@1568101390293
+Postmortem/Time==76.0
+Requirements Document Filename="Requerimientos_Programa2.pdf
+Reused Objects/0/Actual LOC=null
+Reused Objects/0/LOC=null
+Reused_Objects_List=="0
+Started=@1568057611746
+Test/Completed/Edit_Timestamp=@1568101390257
+Test/Completed=@1568101390257
+Test/Defects Removed==5.0
+Test/Started=@1568094376608
+Test/Time==114.0
+Total LOC=205.0

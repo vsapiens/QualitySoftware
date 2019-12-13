@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<defectLog>
+  <defect num="1" type="Documentation" inj="Code" rem="Code Review" ft="3.2" fd="" desc="Missing documentation in the Main class and OutputHandler class." date="@1569386011964" />
+  <defect num="2" type="Interface" inj="Design" rem="Code Review" ft="35.8" fd="" desc="The iomanip library cannot handle the precision of the decimal numbers as the format requires, so 2 more functions are implemented to round the number to 5 decimal places and another one to remove all the non-significant figures of the resulting string. " date="@1569386460045" />
+  <defect num="3" type="Checking" inj="Code" rem="Compile" ft="4.0" fd="" desc="The implicit conversion of double to int marked a warning and a cast of int was implemented." date="@1569388738573" />
+  <defect num="4" type="Function" inj="Code" rem="Test" ft="24.1" fd="" desc="The computation of the r and r-squared where having a nan result since in the formula it was a multiplication but in the code there was a substraction of these elements." date="@1569389122046" />
+  <defect num="5" type="Checking" inj="Code" rem="Test" ft="6.8" fd="" desc="Error Handling in the empty file was not added in the code and is added by checking if the first line has a 0 length." date="@1569390776784" />
+</defectLog>

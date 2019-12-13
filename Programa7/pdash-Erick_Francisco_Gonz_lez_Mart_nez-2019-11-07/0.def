@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<defectLog>
+  <defect num="1" type="Build, package" inj="Code" rem="Code" ft="0.6" fd="" desc="Verification of the formats in the header are not registered" date="@1566965364197" />
+  <defect num="2" type="Assignment" inj="Code" rem="Code" ft="4.0" fd="" desc="Assignment of variables in a vector of regex expressions was changed and initialized in the class." count="2" date="@1566966011048" />
+  <defect num="3" type="Function" inj="Code" rem="Code" ft="2.0" fd="" desc="Dynamic initialization of the constructor in OutputHandler was changed to formal declaration out of the class." count="3" date="@1566966360064" />
+  <defect num="4" type="Build, package" inj="Design" rem="Code" ft="1.0" fd="" desc="Library is the fstream for the archive management in C++" count="4" date="@1566966794517" />
+  <defect num="5" type="Interface" inj="Design" rem="Code" ft="2.0" fd="" desc="The format of edition was changed in order to have the counting of lines in inputHandler and the regex expressions were deleted, since the handle of inputs are easier with find function as part of the std::string library" count="5" date="@1566967039270" />
+  <defect num="6" type="Syntax" inj="Design" rem="Code" ft="0.2" fd="" desc="Const initialization of hyphens in output handler" count="6" date="@1566968278975" />
+  <defect num="7" type="Syntax" inj="Design" rem="Code" ft="0.3" fd="" desc="Inline initialization of vector was added to the counter vectors in the InputHandler and OuputHandler, since there is the case that the file doesn't open and it tries to access non-existing information in the vectors." count="7" date="@1566968359356" />
+  <defect num="8" type="Assignment" inj="Design" rem="Code" ft="0.2" fd="" desc="The assignment of the filename is changed in the HandleInput in case that getline is empty." count="8" date="@1566968515607" />
+  <defect num="9" type="Syntax" inj="Code" rem="Code" ft="10.0" fd="" desc="initialization of an extra variable" count="9" date="@1566968562380" />
+  <defect num="10" type="Build, package" inj="Design" rem="Code" ft="2.0" fd="" desc="Wrong function was change the return value" count="10" date="@1566969158745" />
+  <defect num="11" type="Build, package" inj="Code" rem="Compile" ft="0.3" fd="" desc="The getters of the attributes are removed since there are not necessary and were not previously defined." count="11" date="@1566971458073" />
+  <defect num="12" type="Build, package" inj="Code" rem="Compile" ft="10.0" fd="" desc="The evaluation of the Blank space reads doesn't identify \t as anything in the function, therefore it was subsitututed to the ' ' character for comparison." count="12" date="@1566973378010" />
+  <defect num="13" type="Build, package" inj="Code" rem="Compile" ft="0.2" fd="" desc="Correction in the type of casting in the std::isspace() from (string) to (char)." count="13" date="@1566974360104" />
+  <defect num="14" type="Build, package" inj="Design" rem="After Development" ft="3.9" fd="" desc="Elimination of the regex adn regex vector of expressions library to classify strings." count="14" date="@1567126584457" />
+  <defect num="15" type="Documentation" inj="Code" rem="After Development" ft="22.9" fd="" desc="Documentation of all the code from the header files' and all the functions." count="15" date="@1567132652155" />
+  <defect num="16" type="Assignment" inj="Test" rem="After Development" ft="0.9" fd="" desc="" date="@1567135030015" />
+</defectLog>

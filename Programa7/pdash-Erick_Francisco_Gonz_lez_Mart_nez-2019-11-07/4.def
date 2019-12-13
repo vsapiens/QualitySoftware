@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<defectLog>
+  <defect num="1" type="Interface" inj="Planning" rem="Design" ft="8.0" fd="" desc="The x and p are switched from the program 4, so the output part must be switched as a reused part and must be added to the functional and logical documents." date="@1571242039180" />
+  <defect num="2" type="Function" inj="Design" rem="Design Review" ft="3.5" fd="" desc="The num_seg must be also doubled in case that the iteration is needed in the function storeValues() in the InputReader class." date="@1571244478463" />
+  <defect num="3" type="Interface" inj="Design" rem="Test" ft="1.7" fd="" desc="The output displays the p value of the iteration and not the inputP value, so it was changed in the output." date="@1571245655704" />
+  <defect num="4" type="Function" inj="Code Review" rem="Test" ft="5.4" fd="" desc="The computation of the integral simpson is deferring at a 5 decimal precision, due to the fact that the num_seg starts at a very low number." date="@1571275606617" />
+</defectLog>

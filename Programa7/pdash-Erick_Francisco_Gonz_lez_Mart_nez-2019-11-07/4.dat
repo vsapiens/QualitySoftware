@@ -1,0 +1,110 @@
+#include <pspForEng3/psp2/dataFile2.txt>
+= Data for /Non Project/PSP Training/Program 3
+Base_Parts/0/Actual Base=27.0
+Base_Parts/0/Actual Deleted=18.0
+Base_Parts/0/Actual Modified=2.0
+Base_Parts/0/Added=5.0
+Base_Parts/0/Base=27.0
+Base_Parts/0/Deleted=10.0
+Base_Parts/0/Description="Main
+Base_Parts/0/Modified=10.0
+Base_Parts/1/Actual Added=21.0
+Base_Parts/1/Actual Base=85.0
+Base_Parts/1/Actual Deleted=80.0
+Base_Parts/1/Actual Modified=2.0
+Base_Parts/1/Added=30.0
+Base_Parts/1/Base=85.0
+Base_Parts/1/Deleted=40.0
+Base_Parts/1/Description="OutputHandler
+Base_Parts/1/Modified=5.0
+Base_Parts/2/Actual Added=51.0
+Base_Parts/2/Actual Base=87.0
+Base_Parts/2/Actual Deleted=59.0
+Base_Parts/2/Actual Modified=2.0
+Base_Parts/2/Added=70.0
+Base_Parts/2/Base=87.0
+Base_Parts/2/Deleted=40.0
+Base_Parts/2/Description="InputReader
+Base_Parts/2/Modified=10.0
+Base_Parts_List=="012
+Code Review Checklist Filename="/Archivos/Checklist_Codigo.docx
+Code Review/Completed/Edit_Timestamp=@1569388679744
+Code Review/Completed=@1569388679744
+Code Review/Defects Removed==2.0
+Code Review/Estimated Defects Removed=4.0
+Code Review/Estimated Time/Edit_Timestamp=@1569427054105
+Code Review/Estimated Time=45.0
+Code Review/Started=@1569385921465
+Code Review/Time==45.0
+Code/Completed/Edit_Timestamp=@1569385921433
+Code/Completed=@1569385921433
+Code/Defects Injected==4.0
+Code/Estimated Defects Removed=4.75
+Code/Started=@1569381995540
+Code/Time==56.0
+Compile/Completed/Edit_Timestamp=@1569388978791
+Compile/Completed=@1569388978791
+Compile/Defects Removed==1.0
+Compile/Estimated Defects Removed=2.89
+Compile/Estimated Time/Edit_Timestamp=@1569427072408
+Compile/Estimated Time=3.0
+Compile/Started=@1569388679781
+Compile/Time==5.0
+Design Review Checklist Filename="Archivos/Checklist_Diseño.docx
+Design Review/Completed/Edit_Timestamp=@1569381995490
+Design Review/Completed=@1569381995490
+Design Review/Estimated Defects Removed=5.0
+Design Review/Estimated Time/Edit_Timestamp=@1569427081033
+Design Review/Estimated Time=30.0
+Design Review/Started=@1569380402181
+Design Review/Time==10.0
+Design/Completed/Edit_Timestamp=@1569380402144
+Design/Completed=@1569380402144
+Design/Defects Injected==1.0
+Design/Estimated Time/Edit_Timestamp=@1569427079790
+Design/Estimated Time=60.0
+Design/Started=@1569372444326
+Design/Time==44.0
+Estimated New & Changed LOC/Beta0=0.0
+Estimated New & Changed LOC/Beta1=1.704035874439462
+Estimated New & Changed LOC/Interval Percent="N/A
+Estimated New & Changed LOC/LPI="N/A
+Estimated New & Changed LOC/Probe Method="C
+Estimated New & Changed LOC/R Squared="N/A
+Estimated New & Changed LOC/Range="N/A
+Estimated New & Changed LOC/UPI="N/A
+Estimated New & Changed LOC=25.56053811659193
+Estimated Time/Beta0="N/A
+Estimated Time/Beta1="N/A
+Estimated Time/Edit_Timestamp=@1569372257446
+Estimated Time/Interval Percent="N/A
+Estimated Time/LPI="N/A
+Estimated Time/Probe Method="D
+Estimated Time/R Squared="N/A
+Estimated Time/Range="N/A
+Estimated Time/UPI="N/A
+Estimated Time=340.2
+New_Objects_List=="0
+PROBE_LIST=="/Non Project/PSP Training/Program 1/Non Project/PSP Training/Program 2
+PROBE_Last_Run_Value/Estimated Added & Modified Size=25.56053811659193
+PROBE_Last_Run_Value/Estimated Proxy Size==15.0
+PROBE_Last_Run_Value/Estimated Time/Edit_Timestamp=@1569372257661
+PROBE_Last_Run_Value/Estimated Time=340.2
+PSP Project Document Directory="/Users/ErickFrank/Github/QualitySoftware/Programa3/
+Planning/Completed/Edit_Timestamp=@1569372444285
+Planning/Completed=@1569372444285
+Planning/Started=@1569206697955
+Planning/Time==18.0
+Postmortem/Completed/Edit_Timestamp=@1569528303165
+Postmortem/Completed=@1569528303164
+Postmortem/Started=@1569390888096
+Postmortem/Time==37.0
+Reused Objects/0/LOC=null
+Reused_Objects_List=="0
+Started=@1569206697955
+Test/Completed/Edit_Timestamp=@1569390888072
+Test/Completed=@1569390888072
+Test/Defects Removed==2.0
+Test/Started=@1569388978833
+Test/Time==32.0
+Total LOC=114.0

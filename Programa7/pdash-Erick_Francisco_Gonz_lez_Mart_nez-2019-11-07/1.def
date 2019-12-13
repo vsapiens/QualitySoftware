@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<defectLog>
+  <defect num="1" type="Assignment" inj="Design" rem="Code" ft="1.0" fd="" desc='The Input Handler class is missing an empty constructor where the initialization of the fileName does not initializes and added InputReader::InputReader() : counter(vector&lt;int&gt;(7, 0)), fileName(""), type(&apos;E&apos;){};' date="@1568080773100" />
+  <defect num="2" type="Assignment" inj="Design" rem="Code" ft="27.9" fd="" desc="The Outputhandler class cannot handle the multiple outputs while saving the file, therefore the output will handle all the inputs as a vector." count="2" date="@1568083272986" />
+  <defect num="3" type="Checking" inj="Code" rem="Compile" ft="5.3" fd="" desc='A comparison between chars is not being made, therefore a "==" must be added to the outputhandler.' count="2" date="@1568091939221" />
+  <defect num="4" type="Function" inj="Code" rem="Compile" ft="23.9" fd="" desc="Implicityly deleted copy constructor of Input Reader therefore an explicitly copy constructor is being made." count="3" date="@1568092931848" />
+  <defect num="5" type="Interface" inj="Code" rem="Test" ft="13.4" fd="" desc="Test 1 does not work because it does not read does not identify multiline comments, so it changed the way in which multiline were identified to only skip the line in case of any problem." date="@1568095160989" />
+  <defect num="6" type="Interface" inj="Code" rem="Test" ft="12.8" fd="" desc="The modified lines are also taken into account for the total number of lines and must be added to the globalCounter variable." date="@1568098638176" />
+  <defect num="7" type="Interface" inj="Code" rem="Test" ft="44.8" fd="" desc="The code line search algorithm was corrected because when using a link as a ;http' or 'https' in the document it was not read correctly and was handled by adding another condition." date="@1568095991536" />
+  <defect num="8" type="Interface" inj="Code" rem="Test" ft="18.8" fd="" desc="The reading of multiple files was not implemented, so the name columns are repeated. A method was added that verifies if the file name already exists and adds it to the program that corresponds." date="@1568098748330" />
+  <defect num="9" type="Assignment" inj="Code" rem="Test" ft="20.4" fd="" desc="The initialization of a delimiter did not allow the correct metric so it is explicitly declared in the substr () function in the OutputHandler class." date="@1568100056871" />
+  <defect num="10" type="Interface" inj="Planning" rem="After Development" ft="5.5" fd="" desc="The output of the program did not meet the expected output with the whitespaces." date="@1568336755517" />
+  <defect num="11" type="Documentation" inj="Code" rem="After Development" ft="14.3" fd="" desc="The documentation for each function and relevant items of the class are missing and are added in the next format:&#10;/*&#10;Function:&#10;Parameters:&#10;Return:&#10;*/" date="@1568337101804" />
+</defectLog>

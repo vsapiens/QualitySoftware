@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<defectLog>
+  <defect num="1" type="Data" inj="Code" rem="Code Review" ft="0.0" fd="" desc="The initialization of the vector must be used as the correct version in C++11 in which it can be used with the = operator, though different vectors were initialialized and added to the matrix." count="2" date="@1574278859823" />
+</defectLog>

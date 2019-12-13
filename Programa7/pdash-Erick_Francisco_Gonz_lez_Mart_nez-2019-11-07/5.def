@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<defectLog>
+  <defect num="1" type="Function" inj="Design Review" rem="Code" ft="13.8" fd="" desc="The value of N and dof were not casted from int to double so the double must be added to all the specific parts where N used in an operation." date="@1573104493852" />
+</defectLog>

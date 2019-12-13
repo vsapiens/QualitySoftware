@@ -1,0 +1,34 @@
+Process Dashboard - logging started at Wed Nov 20 13:59:57 CST 2019
+Oracle Corporation JRE 1.8.0_171; Mac OS X
+Using LocalWorkingDirectory[/Users/vsapiens/Library/Process Dashboard/working/pdash-quicklaunch-4067620193267908750]
+2019-11-20 13:59:57.394:INFO:oejs.Server:jetty-8.y.z-SNAPSHOT
+2019-11-20 13:59:57.464:INFO:oejs.AbstractConnector:Started LocalConnector@0.0.0.0:0
+2019-11-20 13:59:57.471:WARN:oejuc.AbstractLifeCycle:FAILED SelectChannelConnector@127.0.0.1:2468: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at net.sourceforge.processdash.net.http.WebServer.addPort(WebServer.java:410)
+	at net.sourceforge.processdash.net.http.WebServer.<init>(WebServer.java:119)
+	at net.sourceforge.processdash.ProcessDashboard.<init>(ProcessDashboard.java:377)
+	at net.sourceforge.processdash.ProcessDashboard.mainImpl(ProcessDashboard.java:2067)
+	at net.sourceforge.processdash.ProcessDashboard.access$800(ProcessDashboard.java:206)
+	at net.sourceforge.processdash.ProcessDashboard$6.run(ProcessDashboard.java:2029)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at net.sourceforge.processdash.ProcessDashboard.main(ProcessDashboard.java:2027)
+2019-11-20 13:59:57.485:INFO:oejs.AbstractConnector:Started SelectChannelConnector@127.0.0.1:2469
+Process Dashboard version 2.4.1
+Running as user vsapiens
+Saved /Users/vsapiens/Library/Process Dashboard/working/pdash-quicklaunch-4067620193267908750/8.dat
+Saved /Users/vsapiens/Library/Process Dashboard/working/pdash-quicklaunch-4067620193267908750/8.dat
+Saved /Users/vsapiens/Library/Process Dashboard/working/pdash-quicklaunch-4067620193267908750/8.dat
+Saved /Users/vsapiens/Library/Process Dashboard/working/pdash-quicklaunch-4067620193267908750/8.dat
+Saved /Users/vsapiens/Library/Process Dashboard/working/pdash-quicklaunch-4067620193267908750/8.dat
+Saved /Users/vsapiens/Library/Process Dashboard/working/pdash-quicklaunch-4067620193267908750/8.dat
+Saved /Users/vsapiens/Library/Process Dashboard/working/pdash-quicklaunch-4067620193267908750/8.dat
